@@ -1,4 +1,4 @@
-# Spotigy Clone app using Next.js, Tailwind CSS, Recoil
+# Spotify Clone app using Next.js, Tailwind CSS, Recoil
 
 # Deployment
 Deployed at : https://www.biswarghyabiswas.me/
