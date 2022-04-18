@@ -1,18 +1,16 @@
 # Spotify Clone app using Next.js, Tailwind CSS, Recoil
 
 ## Deployment
-Deployed at : https://www.biswarghyabiswas.me/
+Deployed the app using vercel at : https://www.biswarghyabiswas.me/
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Tech Stacks
+1) Next.js v12
+2) Tailwind CSS v3, lodash, HeroIcons
+3) NextAuth v4
+4) Spotify Web API
+5) Recoil for global state management for different components
 
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
+## Setup react app
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
@@ -23,4 +21,16 @@ yarn create next-app --example with-tailwindcss with-tailwindcss-app
 pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Spotify developer app
+Link: https://developer.spotify.com/dashboard/applications
+1) Go to the link and create a new app
+2) Click on edit-settings and in Redirect-uris and add your domain URL and save it. ex- http://localhost:3000/api/auth/callback/spotify
+3) Copy the client-id and client-secret and save it in your project.
+
+## Resources
+1) https://nextjs.org/docs
+2) https://tailwindcss.com/docs/guides/nextjs
+3) https://recoiljs.org/docs/introduction/installation
+4) https://lodash.com/docs/4.17.15
+5) https://github.com/thelinmichael/spotify-web-api-node
+6) https://vercel.com/docs/concepts/next.js/overview
