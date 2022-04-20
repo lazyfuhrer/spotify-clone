@@ -25,7 +25,7 @@ pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
 Link: https://developer.spotify.com/dashboard/applications
 1) Go to the link and create a new app
 2) Click on edit-settings and in Redirect-uris and add your domain URL and save it. ex- http://localhost:3000/api/auth/callback/spotify
-3) Copy the client-id and client-secret and save it in your project.
+3) Copy the client-id and client-secret and save it in your project as env variables.
 
 ## Resources
 1) https://nextjs.org/docs
